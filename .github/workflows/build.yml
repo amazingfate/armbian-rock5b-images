@@ -31,7 +31,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        BOARD: [rock-5b]
+        BOARD: [rock-5b, orangepi5]
         DISTRO: [armbian]
         FLAVOR: [ubuntu]
         BRANCH: [legacy]
