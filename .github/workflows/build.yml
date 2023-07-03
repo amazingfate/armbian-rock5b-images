@@ -33,7 +33,7 @@ jobs:
       matrix:
         BOARD: [rock-5a, rock-5b]
         DISTRO: [armbian]
-        FLAVOR: [ubuntu]
+        FLAVOR: [ubuntu, cli]
         BRANCH: [legacy]
     steps:
       - name: Checkout
