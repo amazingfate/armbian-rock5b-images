@@ -31,9 +31,9 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        BOARD: [rock-5a, rock-5b]
+        BOARD: [rock-5b]
         DISTRO: [armbian]
-        FLAVOR: [ubuntu, cli]
+        FLAVOR: [ubuntu]
         BRANCH: [legacy]
     steps:
       - name: Checkout
